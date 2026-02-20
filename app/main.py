@@ -17,7 +17,7 @@ app.include_router(movement_router)
 
 @app.get("/")
 def root():
-    return {"message": "Inventory API is running"}
+    return {"message": "Welcome to the Inventory API" }
 
 @app.get("/scalar")
 def get_scalar():
